@@ -1,7 +1,7 @@
 from ubuntu-dev:latest
 WORKDIR /usr/src
 git clone https://github.com/dabaicai233/v2ex.git
-pip3 install scrapy
+pip3 install scrapy -i https://mirrors.aliyun.com/pypi/simple
 WORKDIR /usr/src/v2ex/V2ex
 RUN  chmod +x start_spider.sh
 RUN  crontab crontab.cron
