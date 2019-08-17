@@ -1,4 +1,4 @@
-from ubuntu-dev:latest
+MAINTAINER from ubuntu-dev:latest
 MAINTAINER  disen  2272096201@qq.com
 WORKDIR /usr/src
 RUN apt update
