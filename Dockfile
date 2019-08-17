@@ -1,0 +1,8 @@
+from ubuntu:17.04
+ADD V2ex /usr/src
+WORKDIR /usr/src
+RUN  virtualenv venv -p python3
+WORKDIR /usr/src/V2ex
+RUN  chmod +x start_spider.sh
+RUN  crontab crontab.cron
+CMD  python3
