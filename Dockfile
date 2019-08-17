@@ -1,4 +1,4 @@
-from ubuntu:17.04
+from ubuntu
 ADD V2ex /usr/src
 WORKDIR /usr/src
 RUN  virtualenv venv -p python3
