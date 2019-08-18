@@ -1,2 +1,2 @@
-*/1 * * * * /usr/src/v2ex/V2ex/start_spider.sh
+0 11 * * * /usr/src/v2ex/V2ex/start_spider.sh
 
