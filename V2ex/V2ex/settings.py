@@ -64,10 +64,18 @@ SPIDER_MIDDLEWARES = {
 
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'V2ex.pipelines.V2ExPipeline': 300,
-#}
+ITEM_PIPELINES = {
+   'V2ex.pipelines.V2ExPipeline': 300,
+}
 
+DB_CONFIG = {
+   'host': 'localhost',
+   'port': 3306,
+   'db': 'v2ex',
+   'user': 'root',
+   'password': '123456',
+   'charset': 'utf8'
+}
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
 #AUTOTHROTTLE_ENABLED = True
