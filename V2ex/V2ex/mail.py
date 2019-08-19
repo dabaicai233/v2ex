@@ -15,7 +15,7 @@ class MessageEmail():
         # 邮件发送方邮箱地址
         self.sender = 'ldd2272096201@163.com'
         # 邮件接受方邮箱地址，注意需要[]包裹，这意味着你可以写多个邮件地址群发
-        self.receivers = ['wsywb111@163.com']
+        self.receivers = ['albertofwb@gmail.com']
 
 
 
